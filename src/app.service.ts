@@ -1,8 +1,9 @@
+// Importaciones que vamos a usar
 import { Injectable } from '@nestjs/common';
 
 @Injectable() //inyecciones
 export class AppService {
   getHello(): string {
-    return 'World!';
+    return 'Realizando cambios para hacer un conflicto';
   }
 }
