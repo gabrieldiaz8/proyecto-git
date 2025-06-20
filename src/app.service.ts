@@ -4,6 +4,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable() //inyecciones
 export class AppService {
   getHello(): string {
-    return 'Realizando cambios para hacer un conflicto';
+    return 'Nuevos cambios para auto-merge';
   }
 }
